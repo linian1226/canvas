@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的画板</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//at.alicdn.com/t/font_845412_28q12maxrt7.js"></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="options">
+        <ul id="color" class="active">
+            <li id="black" class="active"></li>
+            <li id="green"></li>
+            <li id="red"></li>
+            <li id="blue"></li>
+        </ul>
+        <ul id="thickness" class="active">
+            <li id="thin" class="active"></li>
+            <li id="middle"></li>
+            <li id="thick"></li>
+        </ul>
+        <ul id="actions">
+            <li>
+                <svg id="pen" class="active">
+                    <use xlink:href="#icon-pen"></use>
+                </svg>
+            </li>
+            <li>
+                <svg id="eraser">
+                    <use xlink:href="#icon-eraser"></use>
+                </svg>
+            </li>
+            <li>
+                <svg id="clearAll">
+                    <use xlink:href="#icon-clearAll"></use>
+                </svg>
+            </li>
+            <li>
+                <svg id="save">
+                    <use xlink:href="#icon-save"></use>
+                </svg>
+            </li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
