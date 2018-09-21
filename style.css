@@ -58,6 +58,18 @@
   li#blue{
     background-color: blue;
   }
+  li#purple{
+    background-color: purple;
+  }
+  li#maroon{
+    background-color: maroon;
+  }
+  li#lawngreen{
+    background-color: lawngreen;
+  }
+  li#orange{
+    background-color: orange;
+  }
   ul#thickness > li{
     margin: 6px;
     height: 20px;
@@ -82,6 +94,18 @@
   ul#color.remove,
   ul#thickness.remove{
     display: none;
+  }
+  @keyframes active{
+    0%{
+      display:inline-flex;
+      transform:translate(-999px);
+    }
+    80%{
+      transform: translate(10px);
+    }
+    100%{
+      transform: translate(0px);
+    }
   }
   ul#color >li.active,
   ul#thickness > li.active{
